@@ -18,12 +18,12 @@ function App() {
       if(ans==="yes"){
         setpageState("y1")
         setmessage("Thank you, Anushka! Your love means the world to me. Together, we can overcome anything.")
-        console.log("Clicked y1 ...")
+        console.warn("Clicked y1 ...")
       }
       if(ans==="no"){
         setpageState("n1")
         setmessage("Please reconsider, Anushka. Without your love, I feel incomplete. Will you say yes and let me show you how much you mean to me?")
-        console.log("Clicked n1 ...")
+        console.warn("Clicked n1 ...")
       }
 
     }else if(pageState==="n1"){
@@ -31,13 +31,13 @@ function App() {
       if(ans==="yes"){
         setpageState("y2")
         setmessage("Thank you, Anushka! Your love and trust mean everything to me. I promise to cherish and honor our relationship always.")
-        console.log("Clicked y2 ...")
+        console.warn("Clicked y2 ...")
 
       }
       if(ans==="no"){
         setpageState("n2")
         setmessage("Anushka. Your love is the light that motivates and guides me. Will you give me another chance to prove my love for you?")
-        console.log("Clicked n2 ...")
+        console.warn("Clicked n2 ...")
       }
 
     }else if(pageState==="n2"){
@@ -45,12 +45,12 @@ function App() {
       if(ans==="yes"){
         setpageState("y2")
         setmessage("Thank you, Anushka! Your love and trust mean everything to me. I promise to cherish and honor our relationship always.")
-        console.log("Clicked y2 ...")
+        console.warn("Clicked y2 ...")
       }
       if(ans==="no"){
         setpageState("n3")
         setmessage("Anushka, my heart belongs to you. Please say yes and allow us to rebuild our happiness together?")
-        console.log("Clicked n3 ...")
+        console.warn("Clicked n3 ...")
       }
 
     }else if(pageState==="n3"){
@@ -58,7 +58,7 @@ function App() {
       if(ans==="yes"){
         setpageState("y2")
         setmessage("Thank you, Anushka! Your love and trust mean everything to me. I promise to cherish and honor our relationship always.")
-        console.log("Clicked final y2 ...")
+        console.warn("Clicked final y2 ...")
       }
 
     }
